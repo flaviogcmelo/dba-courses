@@ -1,0 +1,32 @@
+-- 
+https://github.com/oracle-samples/db-sample-schemas/releases/tag/v19.2
+
+
+Alter session set container=ORCLPDB;
+
+
+CREATE USER hr IDENTIFIED BY "Welcome13489!#26";
+
+ALTER USER hr DEFAULT TABLESPACE DATA QUOTA UNLIMITED ON DATA;
+
+ALTER USER hr TEMPORARY TABLESPACE TEMP;
+
+GRANT CREATE SESSION, CREATE VIEW, ALTER SESSION, CREATE SEQUENCE TO hr;
+GRANT CREATE SYNONYM, CREATE DATABASE LINK, RESOURCE , UNLIMITED TABLESPACE TO hr;
+
+GRANT execute ON sys.dbms_stats TO hr;
+
+-- default tablespace DATA
+-- temporary tablespace TEMP
+
+
+Alter session set container=ORCLPDB;
+ALTER SESSION SET CURRENT_SCHEMA = HR;
+
+db-sample-schemas-19.2\human_resources\hr_cre.sql (for creating the objects)
+db-sample-schemas-19.2\human_resources\hr_popul.sql (for populating the tables)
+db-sample-schemas-19.2\human_resources\hr_idx.sql (for creating the indexes)
+db-sample-schemas-19.2\human_resources\hr_code.sql (for creating the procedures)
+db-sample-schemas-19.2\human_resources\hr_comnt.sql (for creating the comments)
+db-sample-schemas-19.2\human_resources\hr_analz.sql (for gathering the schema statistics)
+
