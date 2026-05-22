@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "Claude Code / Gen AI",
+			"path": "ClaudeGenAI"
+		},
+		{
+			"name": "Imersão Oracle Backup Recovery",
+			"path": "Imersão Oracle Backup Recovery"
+		}
+	],
+	"settings": {
+		"explorer.sortOrder": "modified",
+		"files.exclude": {
+			"**/.git": false,
+			"**/__pycache__": true
+		}
+	}
+}

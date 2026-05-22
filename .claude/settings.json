@@ -1,0 +1,11 @@
+{
+  "enabledMcpjsonServers": [],
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Read(*)",
+      "Glob(*)",
+      "Grep(*)"
+    ]
+  }
+}
