@@ -1,0 +1,9 @@
+Instale o Oracle Linux 8.10 com um disco de 80Gb e outro de 40Gb.
+Não formate nem monte o segundo disco de 40Gb.
+Crie um diretório /install e coloque dentro dele o instalador do Oracle 19c - LINUX.X64_193000_db_home.zip
+
+Depois que você subir tua VM e configurar a rede, pegue o IP, senha de root e oracle e atualize o arquivo .env enviado no zip do projeto do Claude  Code.
+
+Não é preciso copiar os patches de início para dentro da VM, durante a imersão a IA vai pedir.
+
+Link para Download do material:  https://mega.nz/folder/vA8hyYTD#0cCagJw-xbDn2LIti2ZErg
